@@ -1,0 +1,23 @@
+name: elexto
+description: A Flutter music app built from the Elexto Pixso UI kit.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.11.4
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.7.1
+  shared_preferences: ^2.5.6
+  cupertino_icons: ^1.0.9
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
